@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "name": "linux-gcc-x64",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${HOME}/contiki-ng/",
+        "${HOME}/contiki-ng/os/",
+        "${HOME}/contiki-ng/os/sys/",
+        "${HOME}/contiki-ng/arch/cpu/",
+        "${HOME}/contiki-ng/arch/cpu/nrf52840/",
+        "${HOME}/contiki-ng/arch/platform/",
+        "${HOME}/contiki-ng/arch/platform/nrf52840/"
+      ],
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "${default}",
+      "cppStandard": "${default}",
+      "intelliSenseMode": "linux-gcc-x64",
+      "compilerArgs": [
+        ""
+      ],
+      "configurationProvider": "ms-vscode.makefile-tools"
+    }
+  ],
+  "version": 4
+}
