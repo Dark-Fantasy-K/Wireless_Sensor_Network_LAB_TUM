@@ -19,11 +19,6 @@ Wireless_Sensor_Network_LAB_TUM/
 ├── newlog.txt            # Example output logs
 └── README.md             # Project documentation
 ```
-<<<<<<< HEAD
-
-=======
->>>>>>> 4bdc8d1731c05058493d2a2408bb3766a9a5b6e8
-
 ## Getting Started  
 
 ### Prerequisites
