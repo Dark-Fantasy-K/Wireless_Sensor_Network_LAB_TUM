@@ -19,18 +19,26 @@ Wireless_Sensor_Network_LAB_TUM/
 ├── newlog.txt            # Example output logs
 └── README.md             # Project documentation
 ```
+<<<<<<< HEAD
+
+=======
+>>>>>>> 4bdc8d1731c05058493d2a2408bb3766a9a5b6e8
 
 ## Getting Started  
 
-### Prerequisites  
-- GCC (or any standard C compiler)  
-- Make (optional, if you set up a Makefile)  
+### Prerequisites
+- software
+    - Nordic CLI Tools: `nrfjprog` (with Segger J-Link drivers)  
+    - GNU Make, GCC for ARM (e.g., `arm-none-eabi-gcc`), and standard build tools
+- hardware 
+    - nrf52840
 
-### Compilation  
-You can compile the project with:  
+### Quick Start
+
 ```bash
-gcc master.c my_functions.c simple_packet.c -o wsn_sim
-
-
+# 0) (optional) recover all connected boards to a clean state
+#    The script will call `nrfjprog --recover` per detected port.
+./scripts/upload_multi.sh
+```
 
 
