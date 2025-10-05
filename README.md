@@ -7,9 +7,18 @@ It extends the **LEACH (Low-Energy Adaptive Clustering Hierarchy)** protocol by 
 This project builds upon and extends the repositories and tools developed by the **TUM LSN (Chair of Communication Networks, TUM)** group.  
 
 ## Contents  
-- `simple_packet.c` – Basic packet structures and utilities.  
-- `my_functions.c` – Core helper functions for node communication and networking.  
-- `master.c` – Main simulation control and integration of protocol logic.  
+## Project Structure
+
+```plaintext
+Wireless_Sensor_Network_LAB_TUM/
+│
+├── Routingfunc/          # routing algorithm and sensor driver 
+├── Master/               # Source code for the master (cluster head) node
+├── Worker/               # Source code for the worker (sensor) nodes
+├── Parking_lot_Qt/       # Qt-based GUI 
+├── newlog.txt            # Example output logs
+└── README.md             # Project documentation
+
 
 ## Getting Started  
 
