@@ -18,7 +18,7 @@ Wireless_Sensor_Network_LAB_TUM/
 ├── Parking_lot_Qt/       # Qt-based GUI 
 ├── newlog.txt            # Example output logs
 └── README.md             # Project documentation
-
+```
 
 ## Getting Started  
 
